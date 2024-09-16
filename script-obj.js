@@ -132,6 +132,11 @@ function addNewTodoFn() {
     alert("Please enter a text.");
   }
 
+  if (todos.length > 1) {
+    // clearAllTodosBtn.classList.remove("d-none");
+    console.log(clearAllTodosBtn.classList);
+  }
+
   newTodoInput.value = "";
 }
 
